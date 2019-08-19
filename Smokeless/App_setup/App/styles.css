@@ -1,0 +1,323 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+/*Centre align all objects in body*/
+
+h1, h2 {
+	font-family: 'Josefin Sans';
+	font-size: 36px;
+}
+/* Heading texts style */
+
+q {
+	font-style: italic;
+}
+/* Add a blue color to the author */
+
+input {
+	border-radius: 50px;
+	border-color: #F8E1E7;
+}
+/* Style of input fields */
+
+q {
+	font-family: 'Amatic SC';
+	font-size: 39px;
+}
+/* Quote design */
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/* Effect for visual indicator of button */
+
+a {
+	color: black
+}
+/* Globally */
+
+/* Each state */
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+a:focus {
+	text-decoration: none;
+	color: black;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: black
+}
+* {
+	box-sizing: border-box
+}
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0
+}
+/* Slideshow container */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+/* Button alignment in lists */
+
+button {
+	background-color: #F8E1E7;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 36px;
+	font-size: 32px;
+	width: 70%;
+	font-family: 'Amatic SC';
+	font-weight: bold;
+}
+/* Design for all buttons */
+
+.namesect {
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+}
+/* Name of section design */
+
+.heading {
+	padding-left: 10px;
+	text-align: left;
+}
+/* Heading position */
+
+.text {
+	font-family: 'Josefin Sans';
+	font-size: 18px;
+	text-align: left;
+}
+/* General size of text */
+
+.form1 {
+	padding: 10px;
+	border-radius: 50px;
+}
+/* Form design and alignment */
+
+.box {
+	padding-left: 10px;
+}
+/* Position of box */
+
+.game {
+	padding: 0px;
+}
+/* Game position */
+
+.container {
+	border: 2px solid #F8E1E7;
+	background-color: #F8E1E7;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+}
+/* Darker chat container */
+
+.darker {
+	border-color: #F8E1E7;
+	background-color: #F8E1E7;
+}
+/* Clear floats */
+
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/* Style images */
+
+.container img {
+	float: left;
+	max-width: 60px;
+	width: 100%;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+/* Style the right image */
+
+.container img.right {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+/* Style time text */
+
+.time-right {
+	float: right;
+	color: #aaa;
+}
+/* Style time text */
+
+.time-left {
+	float: left;
+	color: black;
+}
+/* Position of remaining time from smoking */
+
+.slideshow-container {
+	position: relative;
+	background: #F8E1E7;
+}
+/* Slides */
+
+.mySlides {
+	display: none;
+	padding: 25px;
+	text-align: center;
+}
+/* Next & previous buttons */
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: #888;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+/* Position the "next button" to the right */
+
+.next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+/* The dot/bullet/indicator container */
+
+.dot-container {
+	text-align: center;
+	padding: 20px;
+	background: #F8E1E7;
+}
+/* The dots/bullets/indicators */
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+
+.active, .dot:hover {
+	background-color: #f8cede;
+}
+/* Add an italic font style to all quotes */
+
+.author {
+	color: black;
+	font-family: 'Josefin Sans';
+}
+/* Authors quote color */
+
+.list {
+	text-align: left;
+	font-family: 'Josefin Sans';
+	font-size: 18px;
+}
+/* List format */
+
+#navbar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #F8E1E7;
+	color: black;
+}
+/* Navigation bar position */
+
+#chatbar {
+	top: 0;
+	background-color: #F8E1E7;
+	color: black;
+	height: 52px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 52px;
+}
+/* Layout for chatbar-icon */
+
+#settings {
+	float: left;
+	margin-top: 1vw;
+	margin-left: 1vw;
+}
+/* Layout for settings-icon */
+
+#back {
+	float: left;
+	margin-top: 1vw;
+}
+/* Layout for back-icon */
+
+#home {
+	float: right;
+	margin-right: 2vw;
+	margin-top: 1vw;
+}
+/* Layout for home-icon */
+
+#days {
+	font-family: 'Josefin Sans';
+	font-size: 30px;
+	color: black;
+	float: right;
+	margin-right: 2vw;
+	margin-top: 1vw;
+}
+/* Layout for days-icon */
+
+#baby {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-image: url("Images/baby_pic1.jpg");
+	background-size: cover;
+}
+/* Layout for baby image */
+
+#quote {
+	font-family: 'Amatic SC';
+	font-weight: bold;
+	font-size: 33px;
+	color: black;
+}
+/* Chat containers */

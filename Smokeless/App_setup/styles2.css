@@ -1,0 +1,151 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+/* Centre align all objects in body */
+h1, h2 {
+	font-family: 'Josefin Sans';
+	font-size: 36px;
+	padding-bottom: 10px;
+}
+/* Heading texts style */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+/* Button alignment in lists */
+
+p {
+	font-family: 'Josefin Sans';
+}
+/* Paragraph text style */
+
+label {
+	font-family: 'Amatic SC';
+	font-size: 25px;
+}
+/* Label design */
+
+input[type=text] {
+	background-color: #ffffff;
+	color: white;
+	border: 1px solid #d66;
+}
+/* Input field for textbox */
+
+input[type=password] {
+	background-color: #ffffff;
+	color: white;
+	border: 1px solid #d66;
+}
+/* Input field for password */
+
+button {
+	background-color: #F8E1E7;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 36px;
+	font-size: 32px;
+	width: 70%;
+	font-family: 'Amatic SC';
+	font-weight: bold;
+}
+/* Design for all buttons */
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+/* Effect for visual indicator of button */
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: 1px solid #000000;
+	background: #ffffff;
+}
+/* Style of input fields */
+
+input[type=text]:focus, input[type=password]:focus {
+	border-color: #F8E1E7;
+	border: 1px solid #000000;
+}
+/* Design of input field */
+
+input {
+	border-radius: 50px;
+	border: 1px solid #000000;
+}
+/* Rounded edges for input fields */
+
+.quote1 {
+	font-family: 'Josefin Sans';
+	padding: 20px;
+	font-size: 20px;
+}
+/* Quote layout */
+
+.name {
+	font-family: 'Josefin Sans';
+	font-size: 25px;
+	text-align: center;
+}
+/* Label name layout */
+
+.input1 {
+	margin-top: 7px;
+	margin-right: 28px;
+	display: inline-block;
+	width: 265px;
+}
+/* Input field size and alignment */
+
+.label {
+	text-align: left;
+	margin-left: 10px;
+}
+/* Label position */
+
+.dot1, .dot4, .dot5, .dot7, .dot8, .dot9 {
+	height: 10px;
+	width: 10px;
+	background-color: #F8E1E7;
+	border-radius: 50%;
+	display: inline-block;
+}
+/* Position of dots for scrolling */
+
+.dot2, .dot3, .dot6 {
+	height: 10px;
+	width: 10px;
+	background-color: #FFEDF2;
+	border-radius: 50%;
+	display: inline-block;
+}
+/* Position of dots for scrolling */
+
+#back {
+	float: left;
+	margin-top: 5vw;
+	margin-left: 2vw;
+}
+/* Layout for back-icon */
+
+#navbar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #F8E1E7;
+	color: black;
+}
+/* Navigation bar position */
